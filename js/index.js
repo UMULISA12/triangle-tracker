@@ -3,23 +3,28 @@ function checkMyTriangle() {
     var secondSide = document.getElementById("SSide").value;
     var thirdSide = document.getElementById("TSide").value;
 
-    if ((firstSide === thirdSide) && (firstSide=== secondSide) && (secondSide===thirdSide)){
-        alert(" equilateral triangle");
+    var sidesArray = [firstSide,secondSide,thirdSide];
+    sidesArray;
+
+    if ((sidesArray[0] === sidesArray[1]) && (sidesArray[1]=== sidesArray[2])){
+        alert("equilateral triangle");
       }
      
-     else if ((firstSide===secondSide) ||(firstSide===thirdSide) || (secondSide===thirdSide)) {
-        alert(" Isoscelene triangle");
+     else if ((sidesArray[0]===sidesArray[1]) ||(sidesArray[0]===sidesArray[2]) || (sidesArray[1]===sidesArray[2])) {
+        alert("Isoscele triangle");
      
      }
-     
-     else if(((firstSide+secondSide) > thirdSide) && ((firstSide+thirdSide) > secondSide) && ((secondSide+thirdSide) > firstSide) && (firstSide!=secondSide) && (firstSide!=thirdSide) && (secondSide!=thirdSide)) {
-       alert(" scalene triangle");
+
+     else if (sidesArray[0]+sidesArray[1]>=sidesArray[2] && sidesArray[0]+sidesArray[2]>=sidesArray[1]&& sidesArray[1]+sidesArray[2]>=firstSide && sidesArray[1]!=sidesArray[2] && sidesArray[0]!=sidesArray[1] && sidesArray[0]!=sidesArray[2]){
+         alert("Scalene");
      }
      
-     else if (((firstSide+secondSide) <= thirdSide) ||((firstSide+thirdSide)<=secondSide) ||((secondSide+thirdSide) <= firstSide) ) {
-       alert("can not make a triangle");
+     else if (sidesArray[0]+sidesArray[1]<=sidesArray[2] || sidesArray[0]+sidesArray[2]<=sidesArray[1] || sidesArray[1]+sidesArray[2]<=sidesArray[0]){
+         alert("Not a triangle");
      }
-     else {
+
+
+    else {
        alert("Invalid inputs");
      }
      }

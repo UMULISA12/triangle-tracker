@@ -12,6 +12,7 @@ Students from WECODE by Moringa school
 #Setup instructions - includes any scripts that need to be run if necessary.
 -Having internet browsers
 -Having internet connections
+-Text editor
 
 #BDD
 | Input   | Output         | Behaviour                            |

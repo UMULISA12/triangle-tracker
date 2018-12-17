@@ -43,8 +43,9 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  height: 250px;
+  width: 450px;
+  height: 200px;
+  border: solid #C2B6A8 4px;
 }
 h1,p{
   text-align: center;
