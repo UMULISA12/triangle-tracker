@@ -14,7 +14,16 @@ Students from WECODE by Moringa school
 -Having internet connectios
 
 #BDD
+| Input   | Output         | Behaviour                            |
+|---------|----------------|--------------------------------------|
+| (2,2,2) | Equilateral    | all sides are equal                  |
+| (3,3,5) | Isosceles      | two sides are equal                  |
+| (5,3,4) | Scalene        | All sides are not equals             |
+| (1,2,3) | Not a triangle | first side+second side <= third side |
 
-Technologies used.
+#Technologies used.
+-JavaScript
+-HTML
+-CSS
 Contact information.
 License and Copyright information.
