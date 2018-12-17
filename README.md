@@ -32,3 +32,4 @@ Students from WECODE by Moringa school
 -phone number:0787038040
 
 #License and Copyright information.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
