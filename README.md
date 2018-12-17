@@ -11,7 +11,7 @@ Students from WECODE by Moringa school
 
 #Setup instructions - includes any scripts that need to be run if necessary.
 -Having internet browsers
--Having internet connectios
+-Having internet connections
 
 #BDD
 | Input   | Output         | Behaviour                            |
@@ -28,6 +28,6 @@ Students from WECODE by Moringa school
 
 #Contact information.
 -email:umulisaa0@gmail.com
--phone number:0897038040
+-phone number:0787038040
 
 #License and Copyright information.
