@@ -45,4 +45,17 @@ img{
   margin-right: auto;
   width: 400px;
   height: 250px;
-  
+}
+h1,p{
+  text-align: center;
+}
+.form{
+  text-align: center;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+ h2{
+   margin-left: 40px;
+ }
