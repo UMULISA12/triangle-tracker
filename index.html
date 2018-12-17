@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <script src="js/ex.js"></script>
+    <link href="css/ex.css" rel="stylesheet" type="text/css">
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <h1>TRIANGLE TRACKER</h1>
+    <p>This tracker will check whether the entered values can make an equilateral Triangle
+      or isosceles triangle or scalene, it will also show if the entered values can not
+    make a triangle.</p>
+   <div class="flex">
+    <div class="form">
+  <form>
+    <label for="FirstSide">First side:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="number" id="FSide" name="First" placeholder="Enter first side value..">
+      <br>
+    <label for="SecondSide">Second side:</label>
+    <input type="number" id="SSide" name="Second" placeholder="Enter second side value..">
+      <br>
+    <label for="ThirdSide">Third side:&nbsp;&nbsp;&nbsp;</label>
+    <input type="number" id="TSide" name="Third" placeholder="Enter third side value..">
+       <br>
+    <input type="submit" value="Check" onclick="checkMyTriangle()"/>
+    
+  </form>
