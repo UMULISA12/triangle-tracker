@@ -25,5 +25,9 @@ Students from WECODE by Moringa school
 -JavaScript
 -HTML
 -CSS
-Contact information.
-License and Copyright information.
+
+#Contact information.
+-email:umulisaa0@gmail.com
+-phone number:0897038040
+
+#License and Copyright information.
