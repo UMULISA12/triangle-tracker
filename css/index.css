@@ -26,4 +26,23 @@ body{
   input[type=submit]:hover {
     background-color:#856E51;
   }
+  input[type=submit]:hover {
+    background-color:#856E51;
+  }
+  
+  div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    
+  }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 250px;
   
