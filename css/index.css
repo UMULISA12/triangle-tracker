@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 body{
     background-image: url("https://ak6.picdn.net/shutterstock/videos/4805756/thumb/1.jpg");
     background-size: cover;
